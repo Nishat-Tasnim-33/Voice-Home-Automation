@@ -1,7 +1,7 @@
 # Voice-Controlled Home Automation Simulator
 
 Recognizes spoken commands ("turn on the living room light") and
-controls a *simulated* smart home — extends your BAIUST IoT & Basic
+controls a *simulated* smart home — extends my BAIUST IoT & Basic
 Home Automation workshop experience into a working voice-interface
 demo, no physical hardware needed.
 
@@ -12,11 +12,11 @@ demo, no physical hardware needed.
 2. `intent_parser.py` — lightweight rule-based NLU: extracts
    `(action, device, room)` from a transcribed sentence using keyword
    matching (no heavy NLP dependency required).
-3. `voice_control.py` — uses `speech_recognition` to capture your
+3. `voice_control.py` — uses `speech_recognition` to capture my
    microphone audio, transcribes it with Google's free Web Speech API,
    parses intent, and applies it to the simulated house.
 4. `text_mode.py` — a fallback text-input version of the same demo, in
-   case you want to show it off without a live microphone.
+   case  want to show it off without a live microphone.
 
 ## Run it
 ```bash
